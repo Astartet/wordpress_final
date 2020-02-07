@@ -1,5 +1,5 @@
 <?php
-include 'conexion.php';
+require_once('conexion.php');
 if (isset($_POST['enviar'])) {
 	
 	$user = $_POST['usuario'];
